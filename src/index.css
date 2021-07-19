@@ -222,8 +222,9 @@ main {
   margin-bottom: 0.75rem;
 }
 .prev-btn,
-.next-btn {
-  color: var(--clr-primary-7);
+.next-btn,
+.random-btn {
+  color: var(--clr-primary-6);
   font-size: 1.25rem;
   background: transparent;
   border-color: transparent;
@@ -232,21 +233,7 @@ main {
   cursor: pointer;
 }
 .prev-btn:hover,
-.next-btn:hover {
-  color: var(--clr-primary-5);
-}
-.random-btn {
-  margin-top: 0.5rem;
-  background: var(--clr-primary-10);
-  color: var(--clr-primary-5);
-  padding: 0.25rem 0.5rem;
-  text-transform: capitalize;
-  border-radius: var(--radius);
-  transition: var(--transition);
-  border-color: transparent;
-  cursor: pointer;
-}
+.next-btn:hover,
 .random-btn:hover {
-  background: var(--clr-primary-5);
-  color: var(--clr-primary-1);
+  color: var(--clr-primary-3);
 }
