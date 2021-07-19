@@ -26,6 +26,10 @@ const Review = () => {
       return checkNumber(index - 1);
     })
   }
+  const randomPerson = () =>{
+    let randomNumber = Math.floor(Math.random * people.length);
+     return
+  }
 
   return (
   <article className="review">
@@ -43,7 +47,7 @@ const Review = () => {
         <FaChevronLeft onClick={prevPerson} />
       </button>
       <button className="random-btn">
-        <FaRandom />
+        <FaRandom onClick={randomPerson}/>
       </button>
       <button className="next-btn">
         <FaChevronRight onClick={nextPerson} />
